@@ -7,18 +7,6 @@ from Funciones import *
 #Necesito crear un sistema que me permita guardar los puntajes de 5 participantes de un concurso de baile, 
 # cada puntaje se va a guardar por jurado
 
-#Matrices de datos con apoyo de vectores paralelos 
-
-# 1. Cargar nombres alumnos
-# 2. Cargar notas de cada trimestre
-# 3. Mostrar alumnos
-# 4. Mostrar promedio de notas
-# 5. Mostrar nombre de los alumnos que se llevan la materias
-# 6. Mostrar nombre de los alumnos que como nota final les quedo un aplazo
-# 7. Ordenar alfabeticamente a los alumnos y mostrarlos
-# 8. Ordenar a los alumnos por la nota del trimestre 1 más alta
-# 9. Salir
-
 array_nombres = crear_array(5,"")
 array_promedios_jurados = crear_array(3,"")
 matriz_puntajes = crear_matriz(5,3,0)
